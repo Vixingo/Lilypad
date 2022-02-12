@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Archivo", sans-serif;
+}
+.Navbar {
+    padding: 50px;
+}
+.nav-link {
+    color: #fff !important;
+    font-size: 16px;
+    transition: 0.2s ease-out;
+    font-weight: 600;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-link:hover {
+    color: #fff !important;
+    text-shadow: 0 0 7px #7da275, 0 0 10px #7da275, 0 0 21px #7da275,
+        0 0 42px #7da275, 0 0 82px #7da275, 0 0 92px #7da275, 0 0 102px #7da275;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-item {
+    margin: 0 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+    font-family: llp;
+    src: url(./Fonts/LLPIXEL3.ttf);
 }
