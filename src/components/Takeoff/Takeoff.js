@@ -5,10 +5,35 @@ import Apply_Btn from "./Apply_Btn";
 function Takeoff() {
     return (
         <>
-            <section className="Takeoff" style={{ paddingBottom: "20px" }}>
+            <section
+                className="Takeoff"
+                style={{ paddingBottom: "20px", marginTop: "200px" }}
+            >
                 <div className="container">
-                    <Box sx={{ textAlign: "center" }}>
-                        <img src="../img/Takeoff.png" alt="" />
+                    <Box sx={{ position: "relative", textAlign: "center" }}>
+                        <Box
+                            sx={{
+                                position: "absolute",
+                                left: "50%",
+                                top: "-350px",
+                                transform: "translateX(-50%)",
+                                width: "350px",
+                                "@media(max-width:1199px)": {
+                                    width: "300px",
+                                    top: "-300px",
+                                },
+                                "@media(max-width:991px)": {
+                                    width: "250px",
+                                    top: "-250px",
+                                },
+                            }}
+                        >
+                            <img
+                                src="../img/Takeoff.png"
+                                width={"100%"}
+                                alt=""
+                            />
+                        </Box>
                     </Box>
                     <Typography
                         sx={{
@@ -17,6 +42,9 @@ function Takeoff() {
                             fontSize: "24px",
                             fontFamily: "llp",
                             fontWeight: "600",
+                            "@media(max-width:767px)": {
+                                fontSize: "22px",
+                            },
                         }}
                     >
                         WE'RE READY FOR TAKEOFF{" "}
@@ -54,7 +82,13 @@ function Takeoff() {
                     </Typography>
                     <Stack
                         flexDirection={"row"}
-                        justifyContent={"space-between"}
+                        justifyContent={"space-evenly"}
+                        sx={{
+                            flexWrap: "wrap",
+                            "& > :not(style)": {
+                                width: "400px",
+                            },
+                        }}
                     >
                         <Box
                             sx={{

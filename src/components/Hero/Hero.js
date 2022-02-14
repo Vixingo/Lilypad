@@ -10,15 +10,40 @@ function Hero() {
                     <div className="row">
                         <div className="col-md-7 align-self-center animate__animated animate__fadeInLeft">
                             <Typography
-                                sx={{ color: "#fff", fontSize: "40px" }}
+                                sx={{
+                                    color: "#fff",
+                                    fontSize: "40px",
+                                    marginTop: "-100px",
+                                    "@media(max-width:1199px)": {
+                                        fontSize: "30px",
+                                    },
+                                    "@media(max-width:991px)": {
+                                        fontSize: "24px",
+                                    },
+                                    "@media (max-width:767px)": {
+                                        marginTop: "30px",
+                                        textAlign: "center",
+                                    },
+                                }}
                             >
-                                <span style={{ fontWeight: "bold" }}>
+                                <span
+                                    style={{
+                                        fontWeight: "bold",
+                                    }}
+                                >
                                     The leading revenue sharing
                                 </span>
                                 <br />
                                 launchpad for Solana NFT projects!
                             </Typography>
-                            <Box sx={{ margin: "10px auto" }}>
+                            <Box
+                                sx={{
+                                    margin: "10px auto",
+                                    "@media (max-width:767px)": {
+                                        textAlign: "center",
+                                    },
+                                }}
+                            >
                                 <Button
                                     variant="outlined"
                                     sx={{
@@ -29,7 +54,8 @@ function Hero() {
                                         fontSize: "16px",
                                         fontFamily: "Archivo",
                                         transition: "0.2s",
-                                        margin: "0 5px",
+                                        margin: " 5px",
+                                        width: "180px",
                                         dropShadow:
                                             "0px 7px 8px rgba(118, 164, 63, 0.17)",
                                         borderRadius: "0",
@@ -54,7 +80,8 @@ function Hero() {
                                         fontSize: "16px",
                                         fontFamily: "Archivo",
                                         transition: "0.2s",
-                                        margin: "0 5px",
+                                        width: "180px",
+                                        margin: " 5px",
                                         dropShadow:
                                             "0px 7px 8px rgba(118, 164, 63, 0.17)",
                                         borderRadius: "0",

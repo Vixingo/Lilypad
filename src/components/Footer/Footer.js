@@ -12,6 +12,9 @@ function Footer() {
                     paddingTop: "40px",
                     backgroundPosition: "bottom",
                     backgroundSize: "100%",
+                    "@media(max-width:767px)": {
+                        paddingBottom: "40px",
+                    },
                 }}
             >
                 <img src="../img/logo.png" alt="" />

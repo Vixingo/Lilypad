@@ -26,3 +26,11 @@
     font-family: llp;
     src: url(./Fonts/LLPIXEL3.ttf);
 }
+@media (max-width: 1199px) {
+    .nav-link {
+        font-size: 14px;
+    }
+    .Navbar {
+        padding-top: 15px;
+    }
+}

@@ -28,9 +28,9 @@ function FAQ() {
                         AVAILABLE ON
                     </Typography>
                     <Box sx={{ textAlign: "center" }}>
-                        <img src="../img/magic.png" alt="" />
+                        <img src="../img/magic.png" width={"250px"} alt="" />
                     </Box>
-                    <Box sx={{ textAlign: "center", marginTop: "50px" }}>
+                    <Box sx={{ textAlign: "center", marginTop: "60px" }}>
                         <img src="../img/mark.png" alt="" />
                     </Box>
                     <Typography
@@ -41,6 +41,7 @@ function FAQ() {
                             fontWeight: "600",
                             fontFamily: "Archivo",
                             m: 1,
+                            mb: 3,
                         }}
                     >
                         FAQ

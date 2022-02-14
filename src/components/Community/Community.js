@@ -19,8 +19,14 @@ function Community() {
                     >
                         COMMUNITY DRIVEN ECOSYSTEM
                     </Typography>
-                    <Box sx={{ textAlign: "center" }}>
-                        <img src="../img/lil.png" alt="" />
+                    <Box
+                        sx={{
+                            textAlign: "center",
+                            maxWidth: "500px",
+                            margin: "0 auto",
+                        }}
+                    >
+                        <img src="../img/lil.png" alt="" width={"100%"} />
                     </Box>
                     <Typography
                         sx={{
@@ -28,8 +34,7 @@ function Community() {
                             textAlign: "center",
                             fontSize: "29px",
                             fontFamily: "llp",
-                            mt: 3,
-                            mb: 2,
+                            mt: 4,
                         }}
                     >
                         Lilypad's revenue is shared amongst PepePunks NFT
@@ -41,6 +46,12 @@ function Community() {
                             fontFamily: "Archivo",
                             fontSize: "18px",
                             textAlign: "center",
+                            fontWeight: "800",
+                            mb: 3,
+                            mt: 1,
+                            "@media(max-width:767px)": {
+                                fontSize: "16px",
+                            },
                         }}
                     >
                         50% of all launch fees is split amongst all PepePunks
@@ -58,10 +69,12 @@ function Community() {
                     </Typography>
                     <Box
                         sx={{
+                            margin: "0 auto",
                             background: "#76A43F",
                             color: "#fff",
                             textAlign: "center",
-                            padding: "30px",
+                            padding: "20px",
+                            maxWidth: "875px",
                             paddingBottom: "0",
                         }}
                     >
@@ -73,7 +86,7 @@ function Community() {
                             }}
                         >
                             6 PROJECTS LAUNCH THROUGH PROJECT LILY
-                            <span style={{ fontWeight: "400" }}>PAD </span>
+                            <span style={{ fontWeight: "300" }}>PAD</span>
                         </Typography>
                         <Typography
                             sx={{
@@ -108,7 +121,14 @@ function Community() {
                             </Typography>
                         </Box>
                     </Box>
-                    <Box sx={{ background: "#0C1B17", textAlign: "center" }}>
+                    <Box
+                        sx={{
+                            background: "#0C1B17",
+                            textAlign: "center",
+                            maxWidth: "875px",
+                            margin: "0 auto",
+                        }}
+                    >
                         <Typography
                             sx={{
                                 color: "#76A43F",
