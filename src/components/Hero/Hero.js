@@ -1,5 +1,6 @@
 import { Box, Button, Typography } from "@mui/material";
 import React from "react";
+import "animate.css";
 
 function Hero() {
     return (
@@ -7,7 +8,7 @@ function Hero() {
             <section className="Hero">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-7 align-self-center">
+                        <div className="col-md-7 align-self-center animate__animated animate__fadeInLeft">
                             <Typography
                                 sx={{ color: "#fff", fontSize: "40px" }}
                             >
@@ -70,7 +71,7 @@ function Hero() {
                                 </Button>
                             </Box>
                         </div>
-                        <div className="col-md-5">
+                        <div className="col-md-5 animate__animated animate__bounceInDown">
                             <Box
                                 sx={{
                                     width: "100%",

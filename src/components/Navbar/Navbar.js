@@ -4,7 +4,15 @@ import { Button, Stack } from "@mui/material";
 function Navbar() {
     return (
         <>
-            <section className="Navbar">
+            <section
+                className="Navbar"
+                style={{
+                    background: "url(../img/navtop.png)",
+                    backgroundRepeat: "no-repeat",
+                    backgroundPosition: "top",
+                    backgroundSize: "100%",
+                }}
+            >
                 <nav className="navbar navbar-expand-lg navbar-dark ">
                     <div className="container">
                         <a className="navbar-brand" href="#">
