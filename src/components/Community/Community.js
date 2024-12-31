@@ -4,7 +4,11 @@ import React from "react";
 function Community() {
     return (
         <>
-            <section className="Community">
+            <section
+                className="About"
+                id="about"
+                style={{ background: "#0C1B17" }}
+            >
                 <div className="container">
                     <Typography
                         sx={{
@@ -12,12 +16,12 @@ function Community() {
                             textAlign: "center ",
                             fontWeight: "600",
                             fontSize: "28px",
-                            marginTop: "50px",
+                            paddingTop: "30px",
                             marginBottom: "30px",
-                            fontFamily: "Archivo",
+                            fontFamily: "Atma",
                         }}
                     >
-                        COMMUNITY DRIVEN ECOSYSTEM
+                        আমাদের সম্পর্কে
                     </Typography>
                     <Box
                         sx={{
@@ -26,24 +30,24 @@ function Community() {
                             margin: "0 auto",
                         }}
                     >
-                        <img src="../img/lil.png" alt="" width={"100%"} />
+                        {/* <img src="../img/logo.png" alt="" width={120} /> */}
                     </Box>
                     <Typography
                         sx={{
                             color: "#fff",
                             textAlign: "center",
                             fontSize: "29px",
-                            fontFamily: "llp",
+                            fontFamily: "Tiro",
                             mt: 4,
+                            textShadow: "10px 10px 10px #000",
                         }}
                     >
-                        Lilypad's revenue is shared amongst PepePunks NFT
-                        holders.
+                        বাংলাদেশের সবচেয়ে বড় ইউনানী ঔষধালয় ও নার্সারী
                     </Typography>
                     <Typography
                         sx={{
                             color: "#fff",
-                            fontFamily: "Archivo",
+                            fontFamily: "Atma",
                             fontSize: "18px",
                             textAlign: "center",
                             fontWeight: "800",
@@ -54,8 +58,7 @@ function Community() {
                             },
                         }}
                     >
-                        50% of all launch fees is split amongst all PepePunks
-                        holders on a weekly basis.
+                        আমাদের প্রোডাক্ট এখন দেশের বাইরেও পাওয়া যাচ্ছে।
                     </Typography>
                     <Typography
                         sx={{
@@ -65,7 +68,7 @@ function Community() {
                             textAlign: "center",
                         }}
                     >
-                        EXAMPLE
+                        <img src="../img/down.png" alt="" />
                     </Typography>
                     <Box
                         sx={{
@@ -81,22 +84,22 @@ function Community() {
                         <Typography
                             sx={{
                                 fontSize: "18px",
-                                fontFamily: "Archivo",
+                                fontFamily: "Atma",
                                 fontWeight: "600",
                             }}
                         >
-                            6 PROJECTS LAUNCH THROUGH PROJECT LILY
-                            <span style={{ fontWeight: "300" }}>PAD</span>
+                            গত ১০+ বছর ধরে সফলতার সাথে
+                            {/* <span style={{ fontWeight: "300" }}>PAD</span> */}
                         </Typography>
                         <Typography
                             sx={{
                                 fontSize: "21px",
-                                fontFamily: "Archivo",
+                                fontFamily: "Atma",
                                 fontWeight: "600",
                             }}
                         >
-                            WITH AN AVERAGE SUPPLY OF 2,000 NFT’S @ 1 SOL PER
-                            MINT. = 12,000 SOL
+                            নিজস্ব বাগানে উৎপাদিত প্রাকৃতিক ও ভেষজ গাছ, পাতা,
+                            মূল থেকে ইউনানী ওষুধ তৈরি করে
                         </Typography>
                         <Box
                             sx={{
@@ -110,14 +113,14 @@ function Community() {
                             <Typography
                                 sx={{
                                     color: "#000",
-                                    fontFamily: "llp",
+                                    fontFamily: "Tiro",
                                     fontSize: "26px",
                                     fontStyle: "italic",
                                     pt: 2,
                                     pb: 2,
                                 }}
                             >
-                                12% FEE = 1,440 SOL
+                                ১০০% গ্যারান্টি সহকারে
                             </Typography>
                         </Box>
                     </Box>
@@ -135,20 +138,22 @@ function Community() {
                                 fontSize: "24px",
                                 fontWeight: "600",
                                 paddingTop: "45px",
+                                fontFamily: "Atma",
                             }}
                         >
-                            50% TO PEPEPUNK HOLDERS = 720 SOL
+                            দেশে-বিদেশে ৫০০,০০০ এর অধিক খুশি গ্রাহকের কাছে পৌঁছ
+                            দেন{" "}
                         </Typography>
                         <Typography
                             sx={{
                                 color: "#fff",
                                 fontSize: "20px",
-                                fontStyle: "italic",
-                                fontFamily: "llp",
+                                fontStyle: "bold",
+                                fontFamily: "Tiro",
                                 paddingBottom: "20px",
                             }}
                         >
-                            221 TOTAL PEPEPUNKS = 3.25 SOL PER MONTH PER PEPE
+                            হেকিম হাজী খন্দকার কবীর হোসেন মিলিটারী
                         </Typography>
                     </Box>
                 </div>

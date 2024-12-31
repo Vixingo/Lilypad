@@ -38,24 +38,24 @@ function Navbar() {
                                     <a
                                         className="nav-link "
                                         aria-current="page"
-                                        href="#footer"
+                                        href="#about"
                                     >
                                         আমদের সম্পর্কে
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#">
-                                        ECOSYSTEM
+                                        আমাদের সেবা
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#">
-                                        AVAILABLE ON
+                                        আমাদের কাজ
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#">
-                                        FAQ
+                                        যোগাযোগ
                                     </a>
                                 </li>
                                 <li className="nav-item">

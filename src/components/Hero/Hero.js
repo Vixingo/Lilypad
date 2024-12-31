@@ -7,7 +7,7 @@ function Hero() {
         <>
             <section className="Hero">
                 <div className="container">
-                    <div className="flex-md-row flex-column-reverse row">
+                    <div className="row">
                         <div className="col-md-7 align-self-center animate__animated animate__fadeInLeft ">
                             <Typography
                                 sx={{

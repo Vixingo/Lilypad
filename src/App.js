@@ -8,6 +8,7 @@ import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Takeoff from "./components/Takeoff/Takeoff";
 import "./Fonts/LLPIXEL3.ttf";
+import HighLight from "./components/Highlight/HighLight";
 
 function App() {
     return (
@@ -20,9 +21,11 @@ function App() {
             >
                 <Navbar />
                 <Hero />
-                <Takeoff />
                 <Community />
+
+                <HighLight />
                 <FAQ />
+                <Takeoff />
                 <Footer />
             </Box>
         </>
