@@ -7,32 +7,12 @@ function Takeoff() {
         <>
             <section
                 className="Takeoff"
-                style={{ paddingBottom: "20px", marginTop: "200px" }}
+                style={{ paddingBottom: "20px", marginTop: "20px" }}
             >
                 <div className="container">
                     <Box sx={{ position: "relative", textAlign: "center" }}>
-                        <Box
-                            sx={{
-                                position: "absolute",
-                                left: "50%",
-                                top: "-350px",
-                                transform: "translateX(-50%)",
-                                width: "350px",
-                                "@media(max-width:1199px)": {
-                                    width: "300px",
-                                    top: "-300px",
-                                },
-                                "@media(max-width:991px)": {
-                                    width: "250px",
-                                    top: "-250px",
-                                },
-                            }}
-                        >
-                            <img
-                                src="../img/Takeoff.png"
-                                width={"100%"}
-                                alt=""
-                            />
+                        <Box>
+                            <img src="../img/logo.png" width={"200px"} alt="" />
                         </Box>
                     </Box>
                     <Typography
@@ -40,14 +20,14 @@ function Takeoff() {
                             textAlign: "center",
                             color: "#FFF",
                             fontSize: "24px",
-                            fontFamily: "llp",
+                            fontFamily: "Atma",
                             fontWeight: "600",
                             "@media(max-width:767px)": {
                                 fontSize: "22px",
                             },
                         }}
                     >
-                        WE'RE READY FOR TAKEOFF{" "}
+                        সকল রোগের শেফা আছে প্রকৃতিতে{" "}
                     </Typography>
                     <Typography
                         sx={{
@@ -55,21 +35,23 @@ function Takeoff() {
                             textAlign: "center",
                             color: "#FFF",
                             fontSize: "28px",
+                            fontFamily: "Tiro",
                             fontWeight: "600",
                         }}
                     >
-                        LAUNCHING YOUR NFT PROJECT
+                        এখনই ভিডিও কলে বিশেষজ্ঞের পরামর্শ নিন
                     </Typography>
+                    <br />
                     <Typography
                         sx={{
                             textAlign: "center",
                             color: "#FFF",
                             fontSize: "18px",
-                            fontFamily: "llp",
+                            fontFamily: "Tiro",
                             fontWeight: "600",
                         }}
                     >
-                        Is as easy as 1,2,3
+                        সহজ ৩টি ধাপে{" "}
                     </Typography>
                     <Typography
                         sx={{
@@ -93,7 +75,7 @@ function Takeoff() {
                         <Box
                             sx={{
                                 background: "#76A43F",
-                                color: "#fff",
+                                color: "#eee",
                                 margin: "15px 15px",
                                 padding: "12px",
                                 textAlign: "center",
@@ -107,25 +89,26 @@ function Takeoff() {
                             />
                             <Typography
                                 sx={{
-                                    fontSize: "20px",
-                                    fontFamily: "llp",
+                                    fontSize: "26px",
+                                    fontFamily: "Tiro",
                                     marginTop: "10px",
                                     marginBottom: "5px",
                                 }}
                             >
-                                GENERATE
+                                সময় ও তারিখ নির্ধারণ{" "}
                             </Typography>
                             <Typography
                                 sx={{
-                                    fontWeight: "800",
+                                    fontWeight: "300",
                                     fontSize: "18px",
-                                    fontFamily: "Archivo",
+                                    fontFamily: "Tiro",
                                     lineHeight: "1.2",
+
                                     maxWidth: "400px",
                                 }}
                             >
-                                We take your images and attributes to create
-                                your unique NFT collection.
+                                'Book Now' বাটনে ক্লিক করে, কবে কথা বলবেন সেই
+                                তারিখ ও সময় নির্বাচন করুন
                             </Typography>
                         </Box>
                         <Box
@@ -145,25 +128,26 @@ function Takeoff() {
                             />
                             <Typography
                                 sx={{
-                                    fontSize: "20px",
-                                    fontFamily: "llp",
+                                    fontSize: "26px",
+                                    fontFamily: "Tiro",
                                     marginTop: "10px",
                                     marginBottom: "5px",
                                 }}
                             >
-                                MINT PAGE{" "}
+                                প্রয়োজনীয় তথ্য দিন{" "}
                             </Typography>
                             <Typography
                                 sx={{
-                                    fontWeight: "800",
+                                    fontWeight: "300",
                                     fontSize: "18px",
-                                    fontFamily: "Archivo",
+                                    fontFamily: "Tiro",
                                     lineHeight: "1.2",
                                     maxWidth: "400px",
                                 }}
                             >
-                                We build you a fully custom mint page to match
-                                your branding.
+                                আপনার নাম, ইমেইল ও মোবাইল নাম্বার দিয়ে{" "}
+                                <b>'Schedule Event'</b> বাটনে ক্লিক করুন, সাথে
+                                সাথে মিটিং এর লিংক আপনার দেওয়া ইমেইলে চলে যাবে{" "}
                             </Typography>
                         </Box>
                         <Box
@@ -183,25 +167,26 @@ function Takeoff() {
                             />
                             <Typography
                                 sx={{
-                                    fontSize: "20px",
-                                    fontFamily: "llp",
+                                    fontSize: "26px",
+                                    fontFamily: "Tiro",
                                     marginTop: "10px",
                                     marginBottom: "5px",
                                 }}
                             >
-                                LAUNCH
+                                কথা বলুন{" "}
                             </Typography>
                             <Typography
                                 sx={{
-                                    fontWeight: "800",
+                                    fontWeight: "300",
                                     fontSize: "18px",
-                                    fontFamily: "Archivo",
+                                    fontFamily: "Tiro",
                                     lineHeight: "1.2",
                                     maxWidth: "400px",
                                 }}
                             >
-                                Its time to sell out and take care of your post
-                                mint priorities
+                                নির্ধারিত সময়ে ইমেইলে পাওয়া মিটিং লিংকে ক্লিক
+                                করে ভিডিও কলে যোগ দিন, আপনার কথা বলুন, আপনার
+                                সমস্যা বলুন, আপনার চিকিৎসক আপনার সাথে থাকবেন{" "}
                             </Typography>
                         </Box>
                     </Stack>

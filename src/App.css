@@ -1,8 +1,16 @@
+@font-face {
+    font-family: Tiro;
+    src: url(./Fonts/NotoSerifBengali-Regular.ttf);
+}
+@font-face {
+    font-family: Atma;
+    src: url(./Fonts/Atma-Regular.ttf);
+}
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Archivo", sans-serif;
+    font-family: "Tiro", sans-serif;
 }
 .Navbar {
     padding-top: 50px;

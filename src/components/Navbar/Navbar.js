@@ -16,7 +16,7 @@ function Navbar() {
                 <nav className="navbar navbar-expand-lg navbar-dark ">
                     <div className="container">
                         <a className="navbar-brand" href="#">
-                            <img src="../img/logo.png" alt="" />
+                            <img src="../img/logo.png" alt="" width={75} />
                         </a>
                         <button
                             className="navbar-toggler"
@@ -38,9 +38,9 @@ function Navbar() {
                                     <a
                                         className="nav-link "
                                         aria-current="page"
-                                        href="#"
+                                        href="#footer"
                                     >
-                                        LAUNCH YOUR NFT
+                                        আমদের সম্পর্কে
                                     </a>
                                 </li>
                                 <li className="nav-item">

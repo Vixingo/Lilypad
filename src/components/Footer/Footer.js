@@ -4,6 +4,7 @@ function Footer() {
     return (
         <>
             <Box
+                id="footer"
                 sx={{
                     textAlign: "center",
                     background: "url(../img/footer.png)",
@@ -17,7 +18,7 @@ function Footer() {
                     },
                 }}
             >
-                <img src="../img/logo.png" alt="" />
+                <img src="../img/logo.png" alt="" width={100} />
             </Box>
         </>
     );

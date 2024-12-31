@@ -7,13 +7,13 @@ function Hero() {
         <>
             <section className="Hero">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-md-7 align-self-center animate__animated animate__fadeInLeft">
+                    <div className="flex-md-row flex-column-reverse row">
+                        <div className="col-md-7 align-self-center animate__animated animate__fadeInLeft ">
                             <Typography
                                 sx={{
                                     color: "#fff",
-                                    fontSize: "40px",
-                                    marginTop: "-100px",
+                                    fontSize: "35px",
+                                    fontFamily: "Tiro",
                                     "@media(max-width:1199px)": {
                                         fontSize: "30px",
                                     },
@@ -24,18 +24,25 @@ function Hero() {
                                         marginTop: "30px",
                                         textAlign: "center",
                                     },
+                                    textShadow: "10px 10px 10px #000",
                                 }}
                             >
                                 <span
                                     style={{
                                         fontWeight: "bold",
+                                        fontSize: "40px",
+                                        fontFamily: "Atma",
                                     }}
                                 >
-                                    The leading revenue sharing
+                                    মেসার্স ননীফল ইউনানী ঔষধালয় ও নার্সারী
                                 </span>
                                 <br />
-                                launchpad for Solana NFT projects!
+                                <br />
+                                এখানে পাবেন ৬০০+ ঔষধি গাছ ও সেরা ইউনানী চিকিৎসা
+                                যা প্রদান করে হেকিম হাজী খন্দকার কবীর হোসেন
+                                মিলিটারী{" "}
                             </Typography>
+                            <br />
                             <Box
                                 sx={{
                                     margin: "10px auto",
@@ -44,33 +51,41 @@ function Hero() {
                                     },
                                 }}
                             >
-                                <Button
-                                    variant="outlined"
-                                    sx={{
-                                        color: "#fff",
-                                        borderColor: "#76A43F",
-                                        backgroundColor: "#76A43F",
-                                        fontWeight: "bold",
-                                        fontSize: "16px",
-                                        fontFamily: "Archivo",
-                                        transition: "0.2s",
-                                        margin: " 5px",
-                                        width: "180px",
-                                        dropShadow:
-                                            "0px 7px 8px rgba(118, 164, 63, 0.17)",
-                                        borderRadius: "0",
-                                        ":hover": {
-                                            borderColor: "#7da275",
-                                            color: "#7da275",
-                                            backgroundColor: "#fff",
-                                            boxShadow: " 0 0 20px #fff",
-                                        },
-                                    }}
+                                <a
+                                    href="https://calendly.com/kabir-military/30min"
+                                    target="_blank"
+                                    rel="noreferrer"
                                 >
-                                    <i class="fa-brands fa-discord"></i> &nbsp;
-                                    DISCORD
-                                </Button>
-                                <Button
+                                    <Button
+                                        className="animate__animated animate__infinite  animate__pulse  "
+                                        variant="outlined"
+                                        sx={{
+                                            color: "#fff",
+                                            borderColor: "#76A43F",
+                                            backgroundColor: "#76A43F",
+                                            fontWeight: "bold",
+                                            fontSize: "20px",
+                                            fontFamily: "Tiro",
+                                            transition: "0.2s",
+                                            margin: " 5px",
+                                            width: "280px",
+                                            textShadow: "0px 0px 10px #000",
+
+                                            dropShadow:
+                                                "0px 7px 8px rgba(118, 164, 63, 0.17)",
+                                            borderRadius: "0",
+                                            ":hover": {
+                                                borderColor: "#7da275",
+                                                color: "#7da275",
+                                                backgroundColor: "#fff",
+                                                boxShadow: " 0 0 20px #fff",
+                                            },
+                                        }}
+                                    >
+                                        এপয়েন্টমেন্ট বুক করুন
+                                    </Button>
+                                </a>
+                                {/* <Button
                                     variant="outlined"
                                     sx={{
                                         color: "#fff",
@@ -94,11 +109,11 @@ function Hero() {
                                     }}
                                 >
                                     <i class="fa-brands fa-twitter"></i> &nbsp;
-                                    TWITTER
-                                </Button>
+                                    
+                                </Button> */}
                             </Box>
                         </div>
-                        <div className="col-md-5 animate__animated animate__bounceInDown">
+                        <div className="col-md-4 animate__animated animate__bounceInDown">
                             <Box
                                 sx={{
                                     width: "100%",
