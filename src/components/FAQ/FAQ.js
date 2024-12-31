@@ -7,39 +7,6 @@ function FAQ() {
         <>
             <section className="FAQ" style={{ marginTop: "100px" }}>
                 <div className="container">
-                    <Typography
-                        sx={{
-                            fontFamily: "Atma",
-                            color: "#fff",
-                            textAlign: "center",
-                            fontSize: "28px",
-                            fontWeight: "600",
-                            textShadow: "10px 10px 10px #000",
-                            margin: "10px auto",
-                        }}
-                    >
-                        {" "}
-                        মিডিয়ায় আমাদের অর্জনের গল্প
-                    </Typography>
-                    <Box className="VideoBox">
-                        <iframe
-                            src="https://www.youtube-nocookie.com/embed/it_g5TK8los?si=FYB1Ev0E8oH3nmxV&amp;controls=0"
-                            title="YouTube video player"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin"
-                            allowfullscreen
-                        ></iframe>
-                    </Box>
-                    <Box sx={{ textAlign: "center" }}>
-                        <a href="https://www.dhakapost.com/country/237944">
-                            <img
-                                src="../img/dhaka-post-logo.svg"
-                                width={"250px"}
-                                alt=""
-                            />
-                        </a>
-                    </Box>
                     <Box sx={{ textAlign: "center", marginTop: "60px" }}>
                         <img src="../img/mark.png" alt="" />
                     </Box>
@@ -49,27 +16,49 @@ function FAQ() {
                             color: "#fff",
                             fontSize: "22px",
                             fontWeight: "600",
-                            fontFamily: "Archivo",
+                            fontFamily: "Atma",
                             m: 1,
                             mb: 3,
                         }}
                     >
-                        FAQ
+                        সাধারণ জিজ্ঞাসা
                     </Typography>
                     <div className="row">
                         <div className="col-md-6 ">
-                            <FAQbox />
+                            <FAQbox
+                                question={"আপনাদের ঠিকানা কোথায় ?"}
+                                answer={
+                                    "গ্রাম: ছাতিয়ানতলা, যশোর ফিলিংষ্ট্রেশনের পশ্চিম পাশে, ডাকঘর: চুড়ামনকাটি, থানা ও জেলা: যশোর 7407 Jessore, Khulna Division, Bangladesh"
+                                }
+                            />
                         </div>
                         <div className="col-md-6">
-                            <FAQbox />
+                            <FAQbox
+                                question={"আপনাদের অফিস বন্ধ কবে থাকে ?"}
+                                answer={
+                                    "সাধারণ জনগণের কল্যাণে আমাদের অফিস প্রতিদিন সকাল ৯ টা থেকে বিকাল ৬ টা পর্যন্ত খোলা থাকে "
+                                }
+                            />
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-md-6 ">
-                            <FAQbox />
+                            <FAQbox
+                                question={"কিভাবে অর্ডার করবো ?"}
+                                answer={
+                                    "অর্ডার করতে সরাসরি আমাদের কল করুন - ০১৭১১-৭৩০৮১৯ "
+                                }
+                            />
                         </div>
                         <div className="col-md-6">
-                            <FAQbox />
+                            <FAQbox
+                                question={
+                                    "ইন্সুলিন প্লান্ট, জিংসেং কি হোম ডেলিভারি হয় ? "
+                                }
+                                answer={
+                                    "জী, ১-২ দিনের মধ্যে সারা দেশে ও ৫-৭ দিনের মধ্যে দেশের বাহিরে ডেলিভারি হয়।"
+                                }
+                            />
                         </div>
                     </div>
                 </div>

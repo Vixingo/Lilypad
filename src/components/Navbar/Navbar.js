@@ -50,11 +50,6 @@ function Navbar() {
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#">
-                                        আমাদের কাজ
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="#">
                                         যোগাযোগ
                                     </a>
                                 </li>

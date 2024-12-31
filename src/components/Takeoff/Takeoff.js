@@ -10,11 +10,11 @@ function Takeoff() {
                 style={{ paddingBottom: "20px", marginTop: "20px" }}
             >
                 <div className="container">
-                    <Box sx={{ position: "relative", textAlign: "center" }}>
+                    {/* <Box sx={{ position: "relative", textAlign: "center" }}>
                         <Box>
                             <img src="../img/logo.png" width={"200px"} alt="" />
                         </Box>
-                    </Box>
+                    </Box> */}
                     <Typography
                         sx={{
                             textAlign: "center",

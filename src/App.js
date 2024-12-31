@@ -22,10 +22,9 @@ function App() {
                 <Navbar />
                 <Hero />
                 <Community />
-
                 <HighLight />
-                <FAQ />
                 <Takeoff />
+                <FAQ />
                 <Footer />
             </Box>
         </>

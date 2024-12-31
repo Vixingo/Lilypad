@@ -1,7 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
 
-function FAQbox() {
+function FAQbox({ question, answer }) {
     return (
         <>
             <section className="FAQbox mb-4">
@@ -20,28 +20,25 @@ function FAQbox() {
                         <Typography
                             sx={{
                                 color: "#fff",
-                                fontSize: "13px",
-                                fontFamily: "Archivo",
+                                fontSize: "18px",
+                                fontFamily: "Atma",
                                 fontWeight: "700",
+                                textShadow: "0px 0px 10px #000",
                             }}
                         >
-                            LOREM IPSUM IS SIMPLY DUMMY TEXT
+                            {question}
                         </Typography>
                     </Box>
                     <Box sx={{ background: "#0C1B17", padding: "14px 9px" }}>
                         <Typography
                             sx={{
                                 color: "#747474",
-                                fontFamily: "Archivo",
-                                fontWeight: "300",
-                                fontSize: "13px",
+                                fontFamily: "Tiro",
+                                fontWeight: "600",
+                                fontSize: "16px",
                             }}
                         >
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and
-                            scrambled it to make a type specimen book.
+                            {answer}
                         </Typography>
                     </Box>
                 </div>
