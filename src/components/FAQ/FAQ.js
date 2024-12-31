@@ -5,7 +5,7 @@ import FAQbox from "./FAQbox";
 function FAQ() {
     return (
         <>
-            <section className="FAQ" style={{ marginTop: "100px" }}>
+            <section className="FAQ" style={{ marginTop: "100px" }} id="faq">
                 <div className="container">
                     <Box sx={{ textAlign: "center", marginTop: "60px" }}>
                         <img src="../img/mark.png" alt="" />

@@ -7,6 +7,7 @@ function Takeoff() {
         <>
             <section
                 className="Takeoff"
+                id="takeoff"
                 style={{ paddingBottom: "20px", marginTop: "20px" }}
             >
                 <div className="container">

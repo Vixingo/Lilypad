@@ -19,7 +19,7 @@ function Navbar() {
                             <img src="../img/logo.png" alt="" width={75} />
                         </a>
                         <button
-                            className="navbar-toggler"
+                            className="navbar-toggler border-0"
                             type="button"
                             data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent"
@@ -44,26 +44,24 @@ function Navbar() {
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">
+                                    <a className="nav-link" href="#takeoff">
                                         আমাদের সেবা
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">
+                                    <a className="nav-link" href="#faq">
                                         যোগাযোগ
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                     <Stack sx={{ flexDirection: "row" }}>
-                                        <a className="nav-link" href="#">
+                                        {/* <a className="nav-link" href="#">
                                             <IconButton
                                                 sx={{
                                                     color: "#fff",
                                                     borderRadius: "10px",
                                                     transition: "0.2s",
                                                     ":hover": {
-                                                        color: "#7da275",
-                                                        backgroundColor: "#fff",
                                                         boxShadow:
                                                             " 0 0 10px #fff",
                                                     },
@@ -71,23 +69,16 @@ function Navbar() {
                                             >
                                                 <i class="fab fa-twitter"></i>
                                             </IconButton>
-                                        </a>
-                                        <a className="nav-link" href="#">
-                                            <IconButton
-                                                sx={{
-                                                    color: "#fff",
-                                                    borderRadius: "10px",
-                                                    transition: "0.2s",
-                                                    ":hover": {
-                                                        color: "#7da275",
-                                                        backgroundColor: "#fff",
-                                                        boxShadow:
-                                                            " 0 0 10px #fff",
-                                                    },
-                                                }}
-                                            >
-                                                <i class="fab fa-discord"></i>
-                                            </IconButton>
+                                        </a> */}
+                                        <a
+                                            href="tel:+8801711-730819"
+                                            className="nav-link"
+                                            style={{
+                                                textShadow: "0 0 10px #fff",
+                                            }}
+                                        >
+                                            {" "}
+                                            +8801711-730819
                                         </a>
                                     </Stack>
                                 </li>
